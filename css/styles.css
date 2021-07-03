@@ -136,6 +136,11 @@ body {
   color: var(--accent-color);
 }
 
+.nav-icon {
+  display: inline-flex;
+  margin-right: 10px;
+}
+
 .nav-address {
   font-weight: 500;
   font-size: 14px;
@@ -158,7 +163,8 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
 
-  background: #c4c4c4 url(../images/hero-bg.jpg) no-repeat 50% 50%;
+  background-image: url(../images/hero-bg.jpg);
+  background-size: cover;
   text-align: center;
   background-color: var(--hero-footer-background-color);
 }
