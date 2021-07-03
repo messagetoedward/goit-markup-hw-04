@@ -164,6 +164,8 @@ body {
   padding-bottom: 200px;
 
   background-image: url(../images/hero-bg.jpg);
+  background-position: 50% 50%;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   text-align: center;
   background-color: var(--hero-footer-background-color);
