@@ -99,10 +99,6 @@ body {
   margin-left: auto;
 }
 
-.address-margin .link-hover {
-  margin-right: 50px;
-}
-
 /* =====header====== */
 
 .logo-p1 {
@@ -121,6 +117,10 @@ body {
   color: var(--logo-p2-header-color);
 }
 
+.nav-address-list {
+  margin-right: 30px;
+}
+
 .nav-link {
   font-weight: 500;
   font-size: 14px;
@@ -136,12 +136,9 @@ body {
   color: var(--accent-color);
 }
 
-.nav-icon {
-  display: inline-flex;
-  margin-right: 10px;
-}
-
 .nav-address {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -151,10 +148,17 @@ body {
   text-decoration: none;
 }
 
+.nav-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .nav-address:hover,
 .nav-address:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
+
 /* =====END header====== */
 
 /* =====hero===== */
@@ -169,8 +173,7 @@ body {
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/hero-bg.jpg);
-  background-position: 50% 50%;
-  /* background-repeat: no-repeat; */
+  /* background-position: 50% 50%; */
   background-size: cover;
   text-align: center;
 }
