@@ -370,12 +370,61 @@ body {
 
 /* =====END our team===== */
 
+/* =====Clients===== */
+
+.clients-conteiner {
+  padding: 94px 215px;
+}
+
+.clients-content {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  margin-right: -30px;
+}
+
+.clients-list {
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 180px) / 6);
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: #afb1b8;
+}
+
+.clients-icon {
+  fill: currentColor;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  color: var(--accent-color);
+}
+
 /* =====footer===== */
 
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--hero-footer-background-color);
+}
+
+.footer-conteiner {
+  display: flex;
+}
+
+.footer-address-conteiner {
+  margin-right: 70px;
 }
 
 .footer-logo {
@@ -413,6 +462,48 @@ body {
 
   text-decoration: none;
 }
+
+.footer-social-conteiner {
+  width: 206px;
+}
+
+.footer-social-header {
+  padding-top: 12px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer-social-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.ourteam-social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+}
+
 /* =====END footer===== */
 
 /* ==========PORTFOLIO========== */
@@ -476,6 +567,18 @@ body {
 
   background: #ffffff;
   /* outline: 1px solid #eeeeee; */
+}
+
+.projects-list-link {
+  display: block;
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.projects-list-link:hover,
+.projects-list-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .li-projects-conteiner {
